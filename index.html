@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio example website showcasing projects and skills.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katya's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header role="banner">
+        <nav role="navigation">
+            <div class="logo">Katya</div>
+            <ul class="nav-links">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Hello! I'm Katya, an aspiring front-end developer passionate about building beautiful and accessible web
+            experiences.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="wrap">
+            <article class="project">
+                <figure>
+                    <img src="project1.png" alt="Project 1 Screenshot">
+                    <figcaption>Project 1 - Description</figcaption>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi aliquam architecto officia accusantium reiciendis provident. 
+                        Animi assumenda sint ea odit commodi, debitis sapiente, esse exercitationem officiis neque nihil numquam?</p>
+                </figure>
+            </article>
+            <article class="project">
+                <figure>
+                    <img src="project2.png" alt="Project 2 Screenshot">
+                    <figcaption>Project 2 - Description</figcaption>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi aliquam architecto officia accusantium
+                        reiciendis provident. Animi assumenda sint ea odit commodi, debitis sapiente, esse exercitationem officiis neque
+                        nihil numquam?</p>
+                </figure>
+            </article>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Accessibility (WCAG)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
